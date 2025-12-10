@@ -1,7 +1,7 @@
 # Variable_Frequency_Drive (12V DC Motor Controller)
 
 A compact and modular single-phase motor controller designed for **12 V DC motors**.  
-Inspired by the control architecture of traditional industrial VFDs (such as the YKT5), this project adapts those concepts to a simple, safe, low-voltage platform using PWM modulation, real-time protection logic, and a configurable control interface.
+Inspired by the control architecture of traditional industrial VFDs, this project adapts those concepts to a simple, safe, low-voltage platform using PWM modulation, real-time protection logic, and a configurable control interface.
 
 ---
 
