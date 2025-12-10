@@ -1,0 +1,14 @@
+# Ignore everything
+*
+
+# Allow Core/Src folder for code files
+!Core/
+!Core/Src/
+!Core/Src/**
+
+# Allow README.md and .gitignore(redundant exception)
+!README.md
+!.gitignore
+
+# Allow .ioc CubeMX configuration file
+!YKT5_VariableFreqDrive.ioc
