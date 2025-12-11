@@ -8,6 +8,8 @@
 #ifndef INC_APP_HPP_
 #define INC_APP_HPP_
 
+#include "DRV8245bridge.h"
+
 void app();
 
 #endif /* INC_APP_HPP_ */
