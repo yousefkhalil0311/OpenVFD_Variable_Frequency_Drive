@@ -118,6 +118,19 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+
+	  HAL_GPIO_WritePin(SW1_CTRL_GPIO_Port, SW1_CTRL_Pin, 1);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(SW2_CTRL_GPIO_Port, SW2_CTRL_Pin, 1);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(SW3_CTRL_GPIO_Port, SW3_CTRL_Pin, 1);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(SW1_CTRL_GPIO_Port, SW1_CTRL_Pin, 0);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(SW2_CTRL_GPIO_Port, SW2_CTRL_Pin, 0);
+	  HAL_Delay(1000);
+	  HAL_GPIO_WritePin(SW3_CTRL_GPIO_Port, SW3_CTRL_Pin, 0);
+	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

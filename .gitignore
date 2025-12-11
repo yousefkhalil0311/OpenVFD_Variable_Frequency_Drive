@@ -1,10 +1,25 @@
 # Ignore everything
 *
 
-# Allow Core/Src folder for code files
+# Allow Core folder for user code
 !Core/
+
+# Allow Core/Src folder for source files
 !Core/Src/
 !Core/Src/**
+
+# Allow Core/Inc folder for header files
+!Core/Inc/
+!Core/Inc/**
+
+# Allow Drivers folder for custom hardware drivers/interfaces/interface implementations
+!Drivers/
+!Drivers/Interfaces/
+!Drivers/Interfaces/**
+!Drivers/customHAL/
+!Drivers/customHAL/**
+!Drivers/Devices/
+!Drivers/Devices/**
 
 # Allow README.md and .gitignore(redundant exception)
 !README.md
